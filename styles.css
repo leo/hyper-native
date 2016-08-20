@@ -21,10 +21,32 @@
   line-height: 22px;
 }
 
-.tabs_nav .tabs_list .tab_text {
-  color: yellow;
+.tabs_nav .tabs_list {
+  border: 0;
 }
 
+.tabs_nav .tab_tab {
+  background: #B3B3B3;
+}
+
+.tabs_nav .tab_tab.tab_first {
+  margin-left: 0;
+}
+
+.tabs_nav .tab_tab .tab_text {
+  height: 22px;
+}
+
+.tabs_nav .tab_tab.tab_active:before {
+  display: none;
+}
+
+.tabs_nav .tab_tab .tab_textActive {
+  border: 0 !important;
+  background: #D4D4D4;
+}
+
+.tabs_nav .tabs_list .tab_text,
 .tabs_nav .tabs_title {
   color: #2E2D2E;
 }

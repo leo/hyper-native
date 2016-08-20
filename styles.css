@@ -3,11 +3,13 @@
 }
 
 .header_header {
-  border-bottom: 1px solid #7E7E7E;
+  border-bottom: 1px solid #AFAFAF;
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to bottom, #E8E7E8, #D0CFD0) !important;
+  background: #D4D4D4 !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .terms_terms {
@@ -24,5 +26,5 @@
 }
 
 .tabs_nav .tabs_title {
-  color: #4F4F4F;
+  color: #2E2D2E;
 }

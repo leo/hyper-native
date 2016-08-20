@@ -1,0 +1,24 @@
+.hyperterm_main {
+  border: 0 !important;
+}
+
+.header_header {
+  border-bottom: 1px solid #B8B8B8;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, #E8E7E8, #D0CFD0) !important;
+}
+
+.tabs_nav {
+  height: 36px;
+  line-height: 36px;
+}
+
+.tabs_nav .tabs_list .tab_text {
+  color: yellow;
+}
+
+.tabs_nav .tabs_title {
+  color: #4F4F4F;
+}

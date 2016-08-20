@@ -25,8 +25,13 @@
   border: 0;
 }
 
-.tabs_nav .tab_tab {
+.tabs_nav .tab_tab:not(.tab_textActive) {
   background: #B3B3B3;
+  transition: all 0.20s ease-out;
+}
+
+.tabs_nav .tab_tab:not(.tab_textActive):hover {
+  background: #A6A6A6;
 }
 
 .tabs_nav .tab_tab.tab_first {

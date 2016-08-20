@@ -10,7 +10,14 @@ try {
 }
 
 exports.decorateConfig = config => Object.assign({}, config, {
+  padding: '0px 7px',
   backgroundColor: '#fff',
   foregroundColor: '#000',
+  cursorColor: '#000',
+  cursorShape: 'BEAM',
   css: (config.css || '') + styles
+})
+
+exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
+  titleBarStyle: 'hidden'
 })

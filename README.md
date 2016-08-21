@@ -2,6 +2,10 @@
 
 This theme will make your instance of HyperTerm look like macOS' native Terminal app:
 
+<p align="center">
+  <img src="http://i.imgur.com/jWWx8D3.png" width="700">
+</p>
+
 ## Usage
 
 Simply add "hyperterm-native" to the `plugins` property in your `~/.hyperterm.js`

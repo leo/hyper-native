@@ -1,5 +1,6 @@
 # hyperterm-native
-Make HyperTerm adapt to the macOS interface guidelines
+
+This theme will make your instance of HyperTerm look like macOS' native Terminal app:
 
 ## Usage
 

@@ -3,7 +3,7 @@
 }
 
 .header_header {
-  border-bottom: 1px solid #AFAFAF;
+  border-bottom: 1px solid #B2B2B2;
   top: 0;
   left: 0;
   right: 0;
@@ -26,12 +26,12 @@
 }
 
 .tabs_nav .tab_tab:not(.tab_textActive) {
-  background: #B3B3B3;
+  background: #BEBEBE;
   transition: all 0.20s ease-out;
 }
 
 .tabs_nav .tab_tab:not(.tab_textActive):hover {
-  background: #A6A6A6;
+  background: #B2B2B2;
 }
 
 .tabs_nav .tab_tab.tab_first {

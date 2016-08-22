@@ -46,6 +46,20 @@
   display: none;
 }
 
+.tabs_nav .tab_tab .tab_icon {
+  right: 5px;
+  top: 4px;
+  border-radius: 2px;
+}
+
+.tabs_nav .tab_tab .tab_icon:hover {
+  background: #A2A2A2;
+}
+
+.tabs_nav .tab_tab.tab_active .tab_icon:hover {
+  background: #C0C0C0;
+}
+
 .tabs_nav .tab_tab .tab_textActive {
   border: 0 !important;
   background: #D4D4D4;

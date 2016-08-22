@@ -1,6 +1,6 @@
 # hyperterm-native
 
-This theme will make your instance of HyperTerm look like macOS' native Terminal app:
+This theme will make your instance of [HyperTerm](https://hyperterm.org) look like macOS' native Terminal app:
 
 <p align="center">
   <img src="http://i.imgur.com/eeRssvz.png" width="700">

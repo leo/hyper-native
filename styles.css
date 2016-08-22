@@ -47,7 +47,8 @@
 }
 
 .tabs_nav .tab_tab .tab_icon {
-  right: 5px;
+  left: 5px;
+  right: auto;
   top: 4px;
   border-radius: 2px;
 }

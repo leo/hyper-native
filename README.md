@@ -3,7 +3,7 @@
 This theme will make your instance of HyperTerm look like macOS' native Terminal app:
 
 <p align="center">
-  <img src="http://i.imgur.com/jWWx8D3.png" width="700">
+  <img src="http://i.imgur.com/eeRssvz.png" width="700">
 </p>
 
 ## Usage

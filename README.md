@@ -8,7 +8,13 @@ This theme will make your instance of HyperTerm look like macOS' native Terminal
 
 ## Usage
 
-Simply add "hyperterm-native" to the `plugins` property in your `~/.hyperterm.js`
+Simply add the theme to your `~/.hyperterm.js`:
+
+```js
+plugins: [
+  'hyperterm-native'
+]
+```
 
 ## Contribute
 

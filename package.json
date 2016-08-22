@@ -6,6 +6,10 @@
   "scripts": {
     "test": "xo"
   },
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
   "xo": {
     "esnext": true,
     "space": true,
@@ -13,7 +17,11 @@
   },
   "repository": "leo/hyperterm-native",
   "keywords": [
-    "hyperterm"
+    "hyperterm",
+    "theme",
+    "ui",
+    "native",
+    "mac"
   ],
   "author": "leo",
   "license": "MIT",

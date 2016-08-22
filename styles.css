@@ -53,6 +53,14 @@
   border-radius: 2px;
 }
 
+.tabs_nav .tab_tab .tab_icon svg {
+  fill: #767676;
+  height: 8px;
+  width: 8px;
+  left: 3px;
+  top: 3px;
+}
+
 .tabs_nav .tab_tab .tab_icon:hover {
   background: #A2A2A2;
 }

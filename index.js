@@ -9,13 +9,19 @@ try {
   throw err
 }
 
+const colors = {
+  yellow: '#afaf00',
+  lightGreen: '#30de04'
+}
+
 exports.decorateConfig = config => Object.assign({}, config, {
   padding: '0px 7px',
   backgroundColor: '#fff',
   foregroundColor: '#000',
   cursorColor: '#000',
   cursorShape: 'BEAM',
-  css: (config.css || '') + styles
+  css: (config.css || '') + styles,
+  colors
 })
 
 exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {

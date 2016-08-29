@@ -3,22 +3,33 @@
 }
 
 .header_header {
-  border-bottom: 1px solid #B2B2B2;
   top: 0;
   left: 0;
   right: 0;
-  background: #D4D4D4 !important;
+  background: transparent !important;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  position: relative;
 }
 
 .terms_terms {
-  margin-top: 30px;
+  margin-top: 7px;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  height: 100%;
 }
 
 .tabs_nav {
-  height: 22px;
+  height: 23px;
   line-height: 22px;
+  background: #D4D4D4 !important;
+  border-bottom: 1px solid #B2B2B2;
+  margin-bottom: 9px;
+}
+
+.tabs_nav:empty {
+  display: none;
 }
 
 .tabs_nav .tabs_list {

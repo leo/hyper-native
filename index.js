@@ -28,3 +28,11 @@ exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
   titleBarStyle: 'default',
   transparent: false
 })
+
+exports.getTabsProps = (parentProps, props) => {
+  if (props.tabs.length <= 1) {
+    props.tabs = []
+  }
+
+  return Object.assign({}, parentProps, props)
+}

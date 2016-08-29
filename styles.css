@@ -20,6 +20,10 @@
   height: 100%;
 }
 
+.terms_term {
+  height: calc(100% - 14px);
+}
+
 .tabs_nav {
   height: 23px;
   line-height: 22px;

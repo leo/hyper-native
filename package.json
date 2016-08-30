@@ -13,7 +13,10 @@
   "xo": {
     "esnext": true,
     "space": true,
-    "semicolon": false
+    "semicolon": false,
+    "globals": [
+      "document"
+    ]
   },
   "repository": "leo/hyperterm-native",
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-native",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Make HyperTerm adapt to the macOS UI",
   "main": "index.js",
   "scripts": {

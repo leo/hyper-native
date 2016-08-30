@@ -15,7 +15,7 @@ const colors = {
 }
 
 exports.decorateConfig = config => Object.assign({}, config, {
-  padding: '0px 7px',
+  padding: '7px 7px',
   backgroundColor: '#fff',
   foregroundColor: '#000',
   cursorColor: '#000',
@@ -30,8 +30,12 @@ exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
 })
 
 exports.getTabsProps = (parentProps, props) => {
+  const bodyClasses = document.body.classList
+
   if (props.tabs.length <= 1) {
-    props.tabs = []
+    bodyClasses.add('closed-tabs')
+  } else {
+    bodyClasses.remove('closed-tabs')
   }
 
   return Object.assign({}, parentProps, props)

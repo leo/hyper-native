@@ -13,15 +13,15 @@
 }
 
 .terms_terms {
-  margin-top: 7px;
+  margin-top: 0;
   position: relative;
   top: auto;
   bottom: auto;
   height: 100%;
 }
 
-.terms_term {
-  height: calc(100% - 12px);
+body:not(.closed-tabs) .terms_term {
+  height: calc(100% - 22px);
 }
 
 .tabs_nav {
@@ -29,10 +29,9 @@
   line-height: 22px;
   background: #D4D4D4 !important;
   border-bottom: 1px solid #B2B2B2;
-  margin-bottom: 9px;
 }
 
-.tabs_nav:empty {
+body.closed-tabs .tabs_nav {
   display: none;
 }
 

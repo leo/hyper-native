@@ -37,6 +37,16 @@ body.closed-tabs .tabs_nav {
 
 .tabs_nav .tabs_list {
   border: 0;
+  margin-left: 0;
+}
+
+.tabs_nav .tabs_borderShim {
+  display: none;
+}
+
+.tabs_nav .tab_tab {
+  border-bottom: 0;
+  border-left: 0;
 }
 
 .tabs_nav .tab_tab:not(.tab_textActive) {

@@ -17,11 +17,11 @@
   position: relative;
   top: auto;
   bottom: auto;
-  height: 100%;
+  height: calc(100% - 23px);
 }
 
-body:not(.closed-tabs) .terms_term {
-  height: calc(100% - 22px);
+body.closed-tabs .terms_terms {
+  height: 100%;
 }
 
 .tabs_nav {

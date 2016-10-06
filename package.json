@@ -1,7 +1,7 @@
 {
-  "name": "hyperterm-native",
+  "name": "hyper-native",
   "version": "0.2.1",
-  "description": "Make HyperTerm adapt to the macOS UI",
+  "description": "Make Hyper adapt to the macOS UI",
   "main": "index.js",
   "scripts": {
     "test": "xo"
@@ -18,8 +18,9 @@
       "document"
     ]
   },
-  "repository": "leo/hyperterm-native",
+  "repository": "leo/hyper-native",
   "keywords": [
+    "hyper",
     "hyperterm",
     "theme",
     "ui",
@@ -29,9 +30,9 @@
   "author": "leo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leo/hyperterm-native/issues"
+    "url": "https://github.com/leo/hyper-native/issues"
   },
-  "homepage": "https://github.com/leo/hyperterm-native#readme",
+  "homepage": "https://github.com/leo/hyper-native#readme",
   "devDependencies": {
     "xo": "^0.16.0"
   }

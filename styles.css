@@ -1,5 +1,6 @@
-.hyperterm_main {
-  border: 0 !important;
+.hyper_main {
+  border: 0;
+  border-radius: 0;
 }
 
 .header_header {

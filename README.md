@@ -23,3 +23,7 @@ plugins: [
 3. Restart Hyper
 
 As always, you can run the tests using: `npm test`
+
+## Author
+
+Leo Lamprecht ([@notquiteleo](https://twitter.com/notquiteleo))

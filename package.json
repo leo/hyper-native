@@ -30,6 +30,6 @@
   "author": "leo",
   "license": "MIT",
   "devDependencies": {
-    "xo": "^0.17.1"
+    "xo": "0.17.1"
   }
 }

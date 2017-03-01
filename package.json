@@ -4,7 +4,8 @@
   "description": "Make Hyper adapt to the macOS UI",
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo",
+    "precommit": "npm run test"
   },
   "files": [
     "index.js",
@@ -30,6 +31,7 @@
   "author": "leo",
   "license": "MIT",
   "devDependencies": {
+    "husky": "0.13.1",
     "xo": "0.17.1"
   }
 }

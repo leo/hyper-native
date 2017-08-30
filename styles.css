@@ -1,9 +1,9 @@
-._main {
+.hyper_main {
   border: 0;
   border-radius: 0;
 }
 
-._header {
+.header_header {
   top: 0;
   left: 0;
   right: 0;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-._terms {
+.terms_terms {
   margin-top: 0;
   position: relative;
   top: auto;
@@ -21,64 +21,64 @@
   height: calc(100% - 23px);
 }
 
-body.closed-tabs ._terms {
+body.closed-tabs .terms_terms {
   height: 100%;
 }
 
-._nav {
+.tabs_nav {
   height: 23px;
   line-height: 22px;
   background: #D4D4D4 !important;
   border-bottom: 1px solid #B2B2B2;
 }
 
-body.closed-tabs ._nav {
+body.closed-tabs .tabs_nav {
   display: none;
 }
 
-._nav ._list {
+.tabs_nav .tabs_list {
   border: 0;
   margin-left: 0;
 }
 
-._nav ._borderShim {
+.tabs_nav .tabs_borderShim {
   display: none;
 }
 
-._nav ._tab {
+.tabs_nav .tab_tab {
   border-bottom: 0;
   border-left: 0;
 }
 
-._nav ._tab:not(._textActive) {
+.tabs_nav .tab_tab:not(.tab_textActive) {
   background: #BEBEBE;
   transition: all 0.20s ease-out;
 }
 
-._nav ._tab:not(._textActive):hover {
+.tabs_nav .tab_tab:not(.tab_textActive):hover {
   background: #B2B2B2;
 }
 
-._nav ._tab._first {
+.tabs_nav .tab_tab.tab_first {
   margin-left: 0;
 }
 
-._nav ._tab ._text {
+.tabs_nav .tab_tab .tab_text {
   height: 22px;
 }
 
-._nav ._tab._active:before {
+.tabs_nav .tab_tab.tab_active:before {
   display: none;
 }
 
-._nav ._tab ._icon {
+.tabs_nav .tab_tab .tab_icon {
   left: 5px;
   right: auto;
   top: 4px;
   border-radius: 2px;
 }
 
-._nav ._tab ._icon svg {
+.tabs_nav .tab_tab .tab_icon svg {
   fill: #767676;
   height: 8px;
   width: 8px;
@@ -86,20 +86,20 @@ body.closed-tabs ._nav {
   top: 3px;
 }
 
-._nav ._tab ._icon:hover {
+.tabs_nav .tab_tab .tab_icon:hover {
   background: #A2A2A2;
 }
 
-._nav ._tab._active ._icon:hover {
+.tabs_nav .tab_tab.tab_active .tab_icon:hover {
   background: #C0C0C0;
 }
 
-._nav ._tab ._textActive {
+.tabs_nav .tab_tab .tab_textActive {
   border: 0 !important;
   background: #D4D4D4;
 }
 
-._nav ._list ._text,
-._nav ._title {
+.tabs_nav .tabs_list .tab_text,
+.tabs_nav .tabs_title {
   color: #2E2D2E;
 }

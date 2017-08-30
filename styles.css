@@ -1,9 +1,9 @@
-.hyper_main {
+._main {
   border: 0;
   border-radius: 0;
 }
 
-.header_header {
+._header {
   top: 0;
   left: 0;
   right: 0;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.terms_terms {
+._terms {
   margin-top: 0;
   position: relative;
   top: auto;
@@ -21,64 +21,64 @@
   height: calc(100% - 23px);
 }
 
-body.closed-tabs .terms_terms {
+body.closed-tabs ._terms {
   height: 100%;
 }
 
-.tabs_nav {
+._nav {
   height: 23px;
   line-height: 22px;
   background: #D4D4D4 !important;
   border-bottom: 1px solid #B2B2B2;
 }
 
-body.closed-tabs .tabs_nav {
+body.closed-tabs ._nav {
   display: none;
 }
 
-.tabs_nav .tabs_list {
+._nav ._list {
   border: 0;
   margin-left: 0;
 }
 
-.tabs_nav .tabs_borderShim {
+._nav ._borderShim {
   display: none;
 }
 
-.tabs_nav .tab_tab {
+._nav ._tab {
   border-bottom: 0;
   border-left: 0;
 }
 
-.tabs_nav .tab_tab:not(.tab_textActive) {
+._nav ._tab:not(._textActive) {
   background: #BEBEBE;
   transition: all 0.20s ease-out;
 }
 
-.tabs_nav .tab_tab:not(.tab_textActive):hover {
+._nav ._tab:not(._textActive):hover {
   background: #B2B2B2;
 }
 
-.tabs_nav .tab_tab.tab_first {
+._nav ._tab._first {
   margin-left: 0;
 }
 
-.tabs_nav .tab_tab .tab_text {
+._nav ._tab ._text {
   height: 22px;
 }
 
-.tabs_nav .tab_tab.tab_active:before {
+._nav ._tab._active:before {
   display: none;
 }
 
-.tabs_nav .tab_tab .tab_icon {
+._nav ._tab ._icon {
   left: 5px;
   right: auto;
   top: 4px;
   border-radius: 2px;
 }
 
-.tabs_nav .tab_tab .tab_icon svg {
+._nav ._tab ._icon svg {
   fill: #767676;
   height: 8px;
   width: 8px;
@@ -86,20 +86,20 @@ body.closed-tabs .tabs_nav {
   top: 3px;
 }
 
-.tabs_nav .tab_tab .tab_icon:hover {
+._nav ._tab ._icon:hover {
   background: #A2A2A2;
 }
 
-.tabs_nav .tab_tab.tab_active .tab_icon:hover {
+._nav ._tab._active ._icon:hover {
   background: #C0C0C0;
 }
 
-.tabs_nav .tab_tab .tab_textActive {
+._nav ._tab ._textActive {
   border: 0 !important;
   background: #D4D4D4;
 }
 
-.tabs_nav .tabs_list .tab_text,
-.tabs_nav .tabs_title {
+._nav ._list ._text,
+._nav ._title {
   color: #2E2D2E;
 }

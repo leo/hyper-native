@@ -2,13 +2,7 @@
 const fs = require('fs')
 const path = require('path')
 
-let styles = ''
-
-try {
-  styles = fs.readFileSync(path.join(__dirname, 'styles.css'), 'utf8')
-} catch (err) {
-  throw err
-}
+const styles = fs.readFileSync(path.join(__dirname, 'styles.css'), 'utf8')
 
 const colors = {
   yellow: '#afaf00',

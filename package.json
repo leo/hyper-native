@@ -34,7 +34,7 @@
     "title": "Hyper Native",
     "caption": "Make Hyper adapt to the macOS UI",
     "preview": "http://i.imgur.com/eeRssvz.png",
-    "color": [
+    "colors": [
       "#000000",
       "#FFFFFF"
     ]

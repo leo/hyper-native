@@ -13,8 +13,6 @@ exports.decorateConfig = config => Object.assign({}, config, {
   padding: '7px 7px',
   backgroundColor: '#fff',
   foregroundColor: '#000',
-  cursorColor: '#000',
-  cursorShape: 'BEAM',
   css: (config.css || '') + styles,
   colors
 })

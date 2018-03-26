@@ -21,7 +21,7 @@
   height: calc(100% - 23px);
 }
 
-body.closed-tabs .terms_terms {
+.closed-tabs .terms_terms {
   height: 100%;
 }
 
@@ -32,7 +32,7 @@ body.closed-tabs .terms_terms {
   border-bottom: 1px solid #B2B2B2;
 }
 
-body.closed-tabs .tabs_nav {
+.closed-tabs .tabs_nav {
   display: none;
 }
 

@@ -23,12 +23,12 @@ exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
 })
 
 exports.getTabsProps = (parentProps, props) => {
-  const hyper = document.querySelector('.hyper_main')
+  const bodyClasses = document.body.classList
 
   if (props.tabs.length <= 1) {
-    hyper.classList.add('closed-tabs')
+    bodyClasses.add('closed-tabs')
   } else {
-    hyper.classList.remove('closed-tabs')
+    bodyClasses.remove('closed-tabs')
   }
 
   return Object.assign({}, parentProps, props)

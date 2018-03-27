@@ -1,6 +1,6 @@
 {
   "name": "hyper-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make Hyper adapt to the macOS UI",
   "main": "index.js",
   "scripts": {

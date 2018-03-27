@@ -21,6 +21,11 @@
   height: calc(100% - 23px);
 }
 
+/* Ensure v1 backwards compatibility */
+body.closed-tabs .terms_terms {
+  height: 100%;
+}
+
 :global(body.closed-tabs) .terms_terms {
   height: 100%;
 }
@@ -30,6 +35,11 @@
   line-height: 22px;
   background: #D4D4D4 !important;
   border-bottom: 1px solid #B2B2B2;
+}
+
+/* Ensure v1 backwards compatibility */
+body.closed-tabs .tabs_nav {
+  display: none;
 }
 
 :global(body.closed-tabs) .tabs_nav {

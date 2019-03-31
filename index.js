@@ -53,3 +53,25 @@ exports.getTabsProps = (parentProps, props) => {
 
   return Object.assign({}, parentProps, props)
 }
+
+exports.decorateTab = (Tab, {React}) => {
+  return class extends Tab {
+    render() {
+      if (this.props.isActive === true) {
+        document.title = this.props.text
+      }
+      return React.createElement(Tab, Object.assign({}, this.props, {}))
+    }
+  }
+}
+
+exports.decorateTabs = (Tabs, {React}) => {
+  return class extends Tabs {
+    render() {
+      if (this.props.tabs.length === 1 && typeof this.props.tabs[0].title === 'string') {
+        document.title = this.props.tabs[0].title
+      }
+      return React.createElement(Tabs, Object.assign({}, this.props, {}))
+    }
+  }
+}

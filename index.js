@@ -23,13 +23,19 @@ const colors = {
   lightWhite: '#E5E5E5'
 }
 
-exports.decorateConfig = config => Object.assign({}, config, {
-  padding: '7px 7px',
-  backgroundColor: '#fff',
-  foregroundColor: '#000',
-  css: (config.css || '') + styles,
-  colors
-})
+exports.decorateConfig = config => {
+  const isDarkMode = config.hyperNative && config.hyperNative.darkMode
+
+  const hyperNativeConfig = Object.assign({
+    padding: '7px 7px',
+    backgroundColor: isDarkMode ? '#000' : '#fff',
+    foregroundColor: isDarkMode ? '#fff' : '#000',
+    css: (config.css || '') + styles,
+    colors
+  }, config.hyperNative)
+
+  return Object.assign({}, config, hyperNativeConfig)
+}
 
 exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
   titleBarStyle: 'default',

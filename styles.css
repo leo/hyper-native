@@ -1,4 +1,6 @@
 .hyper_main {
+  display: flex;
+  flex-direction: column;
   border: 0;
   border-radius: 0;
 }
@@ -11,6 +13,7 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   position: relative;
+  max-height: 23px;
 }
 
 .terms_terms {
@@ -18,7 +21,7 @@
   position: relative;
   top: auto;
   bottom: auto;
-  height: calc(100% - 23px);
+  height: 100%;
 }
 
 /* Ensure v1 backwards compatibility */
